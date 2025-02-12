@@ -11,7 +11,7 @@ $url = 'https://api.telegram.org/bot7882198041:AAHYwYyCvrc4qfMzvzoVc_JftdY4-Ptfs
 file_get_contents($url);
  }
   
-if($message=='/start') 
+if($message=='s') 
 { 	
 sendMessage($chatID, 'Hi'); 
 } 
